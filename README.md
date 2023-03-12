@@ -1,3 +1,11 @@
+# Usage
+
+```
+git checkout daffy
+dts devel build  # optional: -f --no-cache
+dts devel run
+```
+
 # Template: template-core
 
 This template provides a boilerplate repository
