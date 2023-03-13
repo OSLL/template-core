@@ -1,14 +1,14 @@
 # parameters
-ARG REPO_NAME="<REPO_NAME_HERE>"
-ARG DESCRIPTION="<DESCRIPTION_HERE>"
-ARG MAINTAINER="<YOUR_FULL_NAME> (<YOUR_EMAIL_ADDRESS>)"
+ARG REPO_NAME="dt-core"
+ARG DESCRIPTION="Provides high-level autonomy and fleet-coordination capabilities"
+ARG MAINTAINER="Sergey Glazunov"
 # pick an icon from: https://fontawesome.com/v4.7.0/icons/
 ARG ICON="cube"
 
 # ==================================================>
 # ==> Do not change the code below this line
 ARG ARCH=arm64v8
-ARG DISTRO=ente
+ARG DISTRO=daffy
 ARG BASE_TAG=${DISTRO}-${ARCH}
 ARG BASE_IMAGE=dt-core
 ARG LAUNCHER=default
